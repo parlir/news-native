@@ -1,0 +1,3 @@
+rootProject.name = 'news_native'
+
+include ':app'
