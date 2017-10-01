@@ -31,9 +31,9 @@ const Articles = ({ source, articles, navigation }) => (
                 source={{ uri: article.urlToImage }}
               />
               <Body>
-                <Text>{article.title}</Text>
+                <Text style={{ fontSize: 17 }}>{article.title}</Text>
                 <Text
-                  style={{ fontSize: 9, color: "#555", marginTop: 5 }}
+                  style={{ fontSize: 12, color: "#555", marginTop: 5 }}
                   numberOfLines={2}
                 >
                   {article.description}

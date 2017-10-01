@@ -26,9 +26,9 @@ const Sources = ({ sources, navigation }) => (
               })}
           >
             <Body>
-              <Text>{source.name}</Text>
+              <Text style={{ fontSize: 18 }}>{source.name}</Text>
               <Text
-                style={{ fontSize: 9, color: "#555", marginTop: 5 }}
+                style={{ fontSize: 13, color: "#555", marginTop: 5 }}
                 numberOfLines={2}
               >
                 {source.description}

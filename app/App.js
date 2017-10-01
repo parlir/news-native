@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View } from "react-native";
+import { Text, View, StatusBar } from "react-native";
 import { Provider } from "react-redux";
 import { Container } from "native-base";
 import { StackNavigator } from "react-navigation";
@@ -14,6 +14,7 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <View style={{ backgroundColor: "white", flex: 1 }}>
+          <StatusBar backgroundColor="black" barStyle="light-content" />
           <AppNavigator />
         </View>
       </Provider>

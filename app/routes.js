@@ -20,7 +20,8 @@ export const routes = {
     screen: ArticleViewer,
     path: "article/:url",
     navigationOptions: ({ navigation }) => ({
-      title: navigation.state.params.name
+      title: navigation.state.params.name,
+      header: null
     })
   }
 };
